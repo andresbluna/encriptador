@@ -1,0 +1,66 @@
+h6 {
+     text-align:left;
+     color: #000000;
+     font-size: 18px;
+}
+
+h5 {
+     text-align: footer;
+     color: #d82323;
+}
+
+h7 {
+     text-align: align center;
+}
+
+textarea {
+     width: 50%;
+     height: 300px;
+     padding: 100px 10px 20px 20px;
+     margin-left: 1px;   
+     box-sizing: border-box; 
+     border: transparent;
+     border-radius: 0px;
+     background-color: transparent;
+     font-size: 30px;
+     resize: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+                  'Lucida Grande', 'Lucida Sans', 
+                   Arial, sans-serif;
+
+}
+
+textarea:focus {
+     outline: none;
+}
+
+.logo {
+     float: left;
+     padding: 5px 5px 5px 5px;
+ }
+
+ body {
+     background-color: #f3f5fc;
+
+ }
+
+ footer   {
+     font-size: 15px;
+     margin-top: 300px;
+     margin-left: 100px;
+     padding: 10px 10px 10px 50px;
+
+ }
+
+ aside {
+     position: absolute; /* posicionamiento absoluto */
+     top: 0; /* desde el top de la página */
+     bottom: 0; /* hasta el fondo de la página */
+     right: 0; /* alineado a la derecha */
+     width: 20%; /* o el porcentaje o ancho fijo que desees */
+     background-color: #eee; /* color de fondo para visualizarlo mejor */
+     box-sizing: border-box; /* para incluir padding y border en el ancho total */
+     padding: 10px;
+     overflow-y: auto; /* para que se pueda desplazar verticalmente si el contenido excede la altura */
+ }
+ 
