@@ -13,24 +13,34 @@
         <img src="images/Logo.png" alt="logo de alura" class="logo">
     </header>
     <main>
-        <section>
-            <textarea class="textarea" cols="30" rows="10" placeholder="ingrese texto aqui"></textarea>
-            <div>
+        <section class="flex-container">
+            <!-- Lado izquierdo - Entrada -->
+            <div class="left-section">
+                <textarea class="textarea" cols="30" rows="10" placeholder="ingrese texto aqui"></textarea>
+
+                <div class="info-container">
+                    <span class="informacion2"><span class="alert-symbol">!</span> Solo letras minúsculas y sin acento</span>
+                </div>
+
+                <div class="button-container"> 
+                    <button id="encryptBtn">Encriptar</button>
+                    <button id="decryptBtn">Desencriptar</button>
+                </div>
+
                 <alert class="informacion"></alert>
             </div>
-        </section>
-        <div class="main-container">
-        <aside>
-            <div>
-                <h2>prueba de texto en el lateral</h2>
+
+            <!-- Lado derecho - Salida -->
+            <div class="right-section">
+                <h2 id="output">Hola mundito!!!</h2>
+                <div class="copy-btn-container">
+                    <button id="copyBtn">Copiar</button>
+                </div>
             </div>
-        </aside>
-    </div>
+        </section>
     </main>
 
-    <footer>
-        <span class="informacion2">ⓘ Solo letras minúsculas y sin acento</span> <!-- Cambiado <footertext> a <span> -->
-    </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
