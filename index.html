@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css" media="screen">
+    <!-- Cargando bibliotecas externas -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
     <title>Encriptador</title>
 </head>
 
@@ -32,7 +35,7 @@
 
             <!-- Lado derecho - Salida -->
             <div class="right-section">
-                <h2 id="output">Hola mundito!!!</h2>
+                <div id="output" contenteditable="false">Encripta lo que quieras</div>
                 <div class="copy-btn-container">
                     <button id="copyBtn">Copiar</button>
                 </div>
@@ -40,6 +43,7 @@
         </section>
     </main>
 
+    <!-- Incluyendo el script personalizado para las acciones de los botones -->
     <script src="script.js"></script>
 </body>
 
